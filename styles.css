@@ -23,6 +23,17 @@ body{
 
 /* Header */
 .site-header{background:white;box-shadow:0 1px 4px rgba(16,24,40,0.06)}
+
+/* Floating / sticky header */
+/* Keeps the header visible while scrolling without removing it from the document flow */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(255,255,255,0.95); /* slight translucency when scrolling */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .site-title{margin:0;font-size:1.25rem}
 .site-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
