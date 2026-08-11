@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kamsi Okonkwo — Portfolio</title>
+  <meta name="description" content="Portfolio of Kamsi Okonkwo, an engineer.">
+  <title>Kamsi Okonkwo — Portfolio </title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-  <h1 class="site-title">Kamsi Okonkwo</h1>
+      <h1 class="site-title">Kamsi Okonkwo</h1>
       <nav class="site-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -25,34 +27,72 @@
   <main>
     <section id="home" class="hero">
       <div class="container">
+        <p class="eyebrow">Engineer</p>
         <h2>Welcome</h2>
-  <p class="lead">Hi, I'm Kamsi Okonkwo. I'm a data enthusiast who enjoys turning data into insights and building ML models that solve real problems. Welcome to my portfolio!</p>
+        <p class="lead">Hi, I’m Kamsi Okonkwo. I’m an AI software engineer with a robotics engineering background and hands-on experience building end-to-end machine learning applications, LLM-powered features, and reliable data workflows. Welcome to my portfolio!</p>
+        <a class="btn" href="#contact">Get in touch</a>
       </div>
     </section>
 
     <section id="about" class="about">
       <div class="container">
         <h2>About Me</h2>
-        <p>I am a data scientist with experience in data cleaning, exploratory data analysis, feature engineering, and building machine learning models. I enjoy collaborating with cross-functional teams to translate business problems into data-driven solutions.</p>
+        <p>I am an Engineer with experience in data cleaning, exploratory data analysis, feature engineering, machine learning model development, and LLM integration. I have built production-style ML applications and MLOps workflows for model evaluation, testing, and monitoring.</p>
+        <p>I enjoy collaborating with cross-functional teams to translate business problems into practical, data-driven solutions. My recent work includes an LLM-powered Olympic medal prediction system and an automated student-dropout prediction pipeline.</p>
       </div>
     </section>
 
     <section id="skills" class="skills">
       <div class="container">
         <h2>Skills</h2>
-        <p>Below are some of the data science skills I work with:</p>
+        <p>Below are some of the AI, machine learning, data science, and engineering tools I work with:</p>
         <ul class="skills-grid">
           <li>Python</li>
-          <li>Pandas</li>
-          <li>NumPy</li>
+          <li>SQL</li>
+          <li>JavaScript</li>
+          <li>HTML &amp; CSS</li>
+          <li>Pandas &amp; NumPy</li>
           <li>Scikit-learn</li>
           <li>TensorFlow</li>
           <li>PyTorch</li>
-          <li>SQL</li>
-          <li>Data Visualization (Matplotlib/Seaborn/Plotly)</li>
-          <li>Statistics & Probability</li>
+          <li>NLTK</li>
+          <li>LLM Integration</li>
+          <li>Prompt Engineering</li>
+          <li>Feature Engineering</li>
+          <li>Data Visualization</li>
+          <li>Statistics &amp; Probability</li>
           <li>Machine Learning</li>
+          <li>FastAPI</li>
+          <li>AWS</li>
+          <li>MLflow</li>
+          <li>DVC</li>
+          <li>Git &amp; GitHub Actions</li>
+          <li>Pytest</li>
+          <li>Evidently</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Selected AI/ML projects that demonstrate my experience building, evaluating, and deploying practical machine learning systems.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">AI Application · July 2026</p>
+            <h3>LLM-Powered Olympic Medal Prediction System</h3>
+            <p class="project-tools">Python · Scikit-learn · MLflow · FastAPI · LLM · AWS · Git</p>
+            <p>Designed and deployed an end-to-end AI application that predicts Olympic medal outcomes from 270K+ athlete records. Integrated an LLM interface for natural-language questions and explanations, and evaluated classification models using precision, recall, and F1 score.</p>
+            <a href="https://github.com/Kamsiyochukwu/TripleTen-Capstone.git" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+          <article class="project-card">
+            <p class="project-type">MLOps · July 2026</p>
+            <h3>Student Dropout Prediction MLOps Pipeline</h3>
+            <p class="project-tools">Python · MLflow · DVC · GitHub Actions · Evidently · Pytest</p>
+            <p>Built an automated ML pipeline for preprocessing, training, evaluation, and model validation. Added experiment tracking, CI/CD testing, and feature-drift monitoring to support reliable model evaluation and retraining decisions.</p>
+            <a href="https://github.com/Kamsiyochukwu/Sprint-17.git" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -61,30 +101,27 @@
         <h2>Resume</h2>
         <p>You can view or download my resume below.</p>
         <div class="resume-embed">
-          <!-- Relative project file link to the copied resume PDF -->
-          <embed src="assets/resume-kamsi-okonkwo.pdf" type="application/pdf" width="100%" height="640px" />
+          <div class="resume-toolbar">
+            <span>Resume preview</span>
+            <a href="assets/Kamsi%20Okonkwo%20Resume.pdf" target="_blank" rel="noopener">Open full size ↗</a>
+          </div>
+          <iframe src="assets/Kamsi%20Okonkwo%20Resume.pdf#view=FitH" title="Kamsi Okonkwo Resume">
+            <a href="assets/Kamsi%20Okonkwo%20Resume.pdf" target="_blank" rel="noopener">Open Kamsi Okonkwo's resume</a>
+          </iframe>
         </div>
-  <p style="margin-top:0.75rem;"><a class="btn" href="assets/resume-kamsi-okonkwo.pdf" download>Download Resume (PDF)</a></p>
+        <p class="resume-download"><a class="btn" href="assets/Kamsi%20Okonkwo%20Resume.pdf" download>Download Resume (PDF)</a></p>
       </div>
     </section>
 
     <section id="contact" class="contact">
       <div class="container">
         <h2>Contact</h2>
-  <p>Want to connect? You can find me on LinkedIn: <a href="https://www.linkedin.com/in/kamsi-okonkwo-4920461a3/" target="_blank" rel="noopener">Kamsi Okonkwo — LinkedIn</a> or email me at <a href="mailto:okonkwokamsi1@gmail.com">okonkwokamsi1@gmail.com</a>.</p>
+        <p>Want to connect? Email me at <a href="mailto:okonkwokamsi1@gmail.com">okonkwokamsi1@gmail.com</a>, connect with me on <a href="https://www.linkedin.com/in/kamsi-okonkwo-4920461a3/" target="_blank" rel="noopener">LinkedIn</a>, or explore my work on <a href="https://github.com/Kamsiyochukwu" target="_blank" rel="noopener">GitHub</a>.</p>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small>© <span id="year"></span> Kamsi Okonkwo</small>
-    </div>
-  </footer>
-
-  <script>
-    // Set current year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <footer class="site-footer"><div class="container"><small>© <span id="year"></span> Kamsi Okonkwo</small></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
